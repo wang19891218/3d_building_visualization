@@ -1,0 +1,23 @@
+{
+    "name": "3d_building_visualization",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "NODE_ENV=production vite build",
+        "serve": "vite preview"
+    },
+    "dependencies": {
+        "leaflet": "^1.7.1",
+        "vue": "^3.0.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^1.2.2",
+        "@vue/compiler-sfc": "^3.0.5",
+        "autoprefixer": "^10.2.5",
+        "mapbox-gl": "^2.2.0",
+        "postcss": "^8.2.13",
+        "tailwindcss": "^2.1.2",
+        "three": "^0.128.0",
+        "vite": "^2.2.3"
+    }
+}
